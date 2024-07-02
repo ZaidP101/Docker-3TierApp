@@ -1,4 +1,4 @@
-# Project Description
+# Dockerized Full-Stack Application with React, Node.js, and MongoDB
 
 This project is a fork from [krishnaacharyaa](https://github.com/krishnaacharyaa). It includes a full-stack application with a React frontend, Node.js backend, and MongoDB as the database. To streamline the development and deployment process, I have created Dockerfiles for both the frontend and backend, as well as a `docker-compose.yml` file to manage the entire application.
 
@@ -27,4 +27,10 @@ The `docker-compose.yml` file manages and orchestrates the services for the appl
 - **Backend Service**: Builds the backend from the specified Dockerfile, uses environment variables, and exposes port 5000. It depends on the MongoDB service to be up and running.
 
 This setup provides a cohesive environment for running and developing a 3-tier application using Docker and Docker Compose. The React frontend communicates with the Node.js backend, and the backend interacts with the MongoDB database.
+
+## Issues and Help
+
+There is an issue with the `package.json` files in the frontend and the main parent folder. If you have any experience with resolving conflicts or optimizing the `package.json` setup, your help would be greatly appreciated.
+
+Feel free to open an issue or submit a pull request with suggestions or fixes.
 
